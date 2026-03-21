@@ -1,0 +1,40 @@
+name: Daily AI Insights
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Runs every day at 9:00 AM UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate-insight:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Generate daily insight
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_insight.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "Daily Insights Bot"
+          git config --global user.email "insights-bot@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "📚 Daily Insight: $(date +'%Y-%m-%d')"
+          git push
