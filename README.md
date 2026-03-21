@@ -1,1 +1,1 @@
-# daily-dev-insights
+# Daily-Dev-Insights
