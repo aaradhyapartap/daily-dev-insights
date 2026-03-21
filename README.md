@@ -21,4 +21,4 @@ Each post includes:
 - ⚖️ When to use / avoid
 - 📚 Further reading
 
-*Built by Aaradhya Partap· Uses Claude AI for content generation [Anthropic Claude](https://anthropic.com)*
+*Powered by [Anthropic Claude](https://anthropic.com)*
