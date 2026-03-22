@@ -5,10 +5,11 @@
 
 ## ✨ Latest Insight
 
-**[Regular expressions deep dive](insights/2026-03-21-regular-expressions-deep-dive.md)** · March 21, 2026
+**[Shell scripting productivity tips](insights/2026-03-22-shell-scripting-productivity-tips.md)** · March 22, 2026
 
 ## 📅 Recent Posts
 
+- [2026-03-22-shell-scripting-productivity-tips](insights/2026-03-22-shell-scripting-productivity-tips.md)
 - [2026-03-21-regular-expressions-deep-dive](insights/2026-03-21-regular-expressions-deep-dive.md)
 
 ## 🚀 About
