@@ -3,194 +3,175 @@
 
 ## 🧠 Overview
 
-Understanding Git's internals transforms you from someone who just runs commands to someone who truly understands what's happening under the hood. Git is fundamentally a content-addressable filesystem with a version control interface built on top. Every commit, tree, and blob is stored as an object with a SHA-1 hash, creating an immutable directed acyclic graph that makes Git incredibly powerful for complex workflows.
+Understanding Git's internals transforms how you think about version control. At its core, Git is a content-addressable filesystem with a powerful VCS interface built on top. Every commit, tree, and blob is stored as an object with a SHA-1 hash, creating an immutable directed acyclic graph of your project's history. This knowledge isn't just academic—it unlocks advanced workflows that can save your team from complex merge conflicts and deployment disasters.
 
-Advanced Git workflows leverage this internal structure to solve real-world problems: interactive rebasing to craft clean commit histories, cherry-picking specific changes across branches, using reflog to recover "lost" work, and creating custom hooks for automation. These techniques separate senior developers who can confidently navigate complex merge conflicts and repository histories from those who panic when `git pull` doesn't work as expected.
+Advanced Git workflows go beyond basic branching. They leverage Git's object model to create sophisticated strategies like GitFlow, trunk-based development, and feature flag integration. When you understand that a branch is just a movable pointer to a commit, and that rebasing literally rewrites history by creating new commit objects, you can craft workflows that keep your history clean and deployments predictable. The key is matching your workflow to your team size, deployment frequency, and risk tolerance.
 
 ## 💡 Key Concepts
 
-• **Object Database**: Git stores everything as objects (commits, trees, blobs, tags) identified by SHA-1 hashes, creating an immutable content-addressable storage system
-• **Refs and HEAD**: References are pointers to commits, with HEAD being a symbolic ref pointing to the current branch, enabling Git's branching model
-• **Interactive Rebase**: Rewriting commit history by squashing, reordering, or editing commits to create clean, logical commit sequences
-• **Reflog**: Git's safety net that tracks all reference updates, allowing recovery of seemingly "lost" commits and branches
-• **Plumbing vs Porcelain**: Low-level plumbing commands expose Git's internals, while high-level porcelain commands provide the user-friendly interface
+• **Git objects are immutable**: Every commit, tree, and blob has a unique SHA-1 hash. Understanding this helps debug complex merge issues and explains why rebasing creates new commits
+• **Refs are just pointers**: Branches, tags, and HEAD are simply files containing commit hashes. This makes advanced operations like cherry-picking and interactive rebasing much clearer
+• **The staging area is a tree object**: The index isn't just a convenience—it's a full tree object that lets you craft perfect commits by staging partial changes
+• **Reflog is your safety net**: Git keeps a local history of all ref updates for 90 days by default. You can recover from almost any "lost" work using reflog
+• **Merge vs rebase creates different histories**: Merging preserves context and timing; rebasing creates linear history but loses merge information. Choose based on your team's debugging and rollback needs
 
 ## 🐍 Python Example
 
 ```python
-#!/usr/bin/env python3
 import subprocess
 import json
-import sys
 from pathlib import Path
 
-class GitInternalsAnalyzer:
-    """Analyze Git repository internals and generate insights"""
-    
+class GitInternals:
     def __init__(self, repo_path="."):
         self.repo_path = Path(repo_path)
-        if not (self.repo_path / ".git").exists():
-            raise ValueError("Not a Git repository")
     
-    def get_object_info(self, sha):
-        """Get detailed information about a Git object"""
-        try:
-            # Get object type
-            obj_type = subprocess.check_output(
-                ["git", "cat-file", "-t", sha], 
-                cwd=self.repo_path, text=True
-            ).strip()
+    def get_object_info(self, commit_hash):
+        """Extract detailed information about a Git object"""
+        result = subprocess.run(
+            ["git", "cat-file", "-p", commit_hash],
+            cwd=self.repo_path,
+            capture_output=True,
+            text=True
+        )
+        
+        if result.returncode != 0:
+            raise ValueError(f"Invalid object hash: {commit_hash}")
             
-            # Get object size
-            obj_size = subprocess.check_output(
-                ["git", "cat-file", "-s", sha], 
-                cwd=self.repo_path, text=True
-            ).strip()
-            
-            return {"type": obj_type, "size": obj_size, "sha": sha}
-        except subprocess.CalledProcessError:
-            return None
+        return result.stdout.strip()
     
-    def analyze_commit_graph(self, branch="HEAD", limit=10):
-        """Analyze commit graph structure and relationships"""
-        # Get commit history with parent information
-        git_log = subprocess.check_output([
-            "git", "log", "--format=%H|%P|%s|%an", 
-            f"-{limit}", branch
-        ], cwd=self.repo_path, text=True)
+    def analyze_commit_graph(self, start_commit="HEAD", depth=10):
+        """Build a graph of commits showing the DAG structure"""
+        result = subprocess.run([
+            "git", "log", "--pretty=format:%H|%P|%s|%an|%ad", 
+            "--date=iso", f"-{depth}", start_commit
+        ], cwd=self.repo_path, capture_output=True, text=True)
         
         commits = []
-        for line in git_log.strip().split("\n"):
+        for line in result.stdout.strip().split('\n'):
             if line:
-                sha, parents, subject, author = line.split("|", 3)
-                parent_list = parents.split() if parents else []
+                hash_val, parents, subject, author, date = line.split('|', 4)
                 commits.append({
-                    "sha": sha[:8],
-                    "parents": [p[:8] for p in parent_list],
-                    "subject": subject,
-                    "author": author,
-                    "object_info": self.get_object_info(sha)
+                    'hash': hash_val[:8],
+                    'parents': parents.split() if parents else [],
+                    'subject': subject,
+                    'author': author,
+                    'date': date,
+                    'is_merge': len(parents.split()) > 1 if parents else False
                 })
-        
         return commits
     
-    def find_dangling_objects(self):
-        """Find unreachable objects using Git's fsck"""
-        try:
-            fsck_output = subprocess.check_output(
-                ["git", "fsck", "--unreachable"], 
-                cwd=self.repo_path, text=True, stderr=subprocess.STDOUT
-            )
-            
-            dangling = []
-            for line in fsck_output.split("\n"):
-                if "unreachable" in line:
-                    parts = line.split()
-                    if len(parts) >= 3:
-                        dangling.append({
-                            "type": parts[1], 
-                            "sha": parts[2][:8]
-                        })
-            return dangling
-        except subprocess.CalledProcessError:
-            return []
+    def find_dangling_commits(self):
+        """Find commits not reachable from any branch (useful after rebases)"""
+        # Get all objects
+        all_commits = subprocess.run(
+            ["git", "rev-list", "--all"],
+            cwd=self.repo_path, capture_output=True, text=True
+        ).stdout.strip().split('\n')
+        
+        # Get reachable objects  
+        reachable = subprocess.run(
+            ["git", "rev-list", "--branches", "--tags"],
+            cwd=self.repo_path, capture_output=True, text=True
+        ).stdout.strip().split('\n')
+        
+        return [commit for commit in all_commits if commit not in reachable]
 
 # Usage example
-if __name__ == "__main__":
-    analyzer = GitInternalsAnalyzer()
-    
-    print("🔍 Git Repository Analysis")
-    print("=" * 50)
-    
-    # Analyze recent commits
-    commits = analyzer.analyze_commit_graph(limit=5)
-    print(f"\n📊 Recent Commits ({len(commits)}):")
-    for commit in commits:
-        print(f"  {commit['sha']} - {commit['subject'][:50]}...")
-        print(f"    Parents: {commit['parents'] or ['root']}")
-        if commit['object_info']:
-            print(f"    Size: {commit['object_info']['size']} bytes")
-    
-    # Find dangling objects
-    dangling = analyzer.find_dangling_objects()
-    if dangling:
-        print(f"\n⚠️  Found {len(dangling)} unreachable objects")
-        for obj in dangling[:3]:
-            print(f"  {obj['type']}: {obj['sha']}")
+git = GitInternals()
+commits = git.analyze_commit_graph(depth=5)
+for commit in commits:
+    prefix = "🔀" if commit['is_merge'] else "📝"
+    print(f"{prefix} {commit['hash']}: {commit['subject']}")
 ```
 
 ## 🟨 JavaScript Example
 
 ```javascript
 const { execSync } = require('child_process');
-const fs = require('fs');
 const path = require('path');
 
 class GitWorkflowAutomator {
-    constructor(repoPath = '.') {
-        this.repoPath = repoPath;
-        this.gitDir = path.join(repoPath, '.git');
-        
-        if (!fs.existsSync(this.gitDir)) {
-            throw new Error('Not a Git repository');
-        }
+  constructor(repoPath = '.') {
+    this.repoPath = repoPath;
+  }
+
+  // Automated feature branch workflow with safety checks
+  createFeatureBranch(featureName, baseBranch = 'main') {
+    try {
+      // Ensure we're on clean working directory
+      const status = this.execGit('git status --porcelain');
+      if (status.trim()) {
+        throw new Error('Working directory not clean. Stash or commit changes first.');
+      }
+
+      // Update base branch
+      this.execGit(`git checkout ${baseBranch}`);
+      this.execGit('git pull origin ' + baseBranch);
+      
+      // Create and push feature branch
+      const branchName = `feature/${featureName}`;
+      this.execGit(`git checkout -b ${branchName}`);
+      this.execGit(`git push -u origin ${branchName}`);
+      
+      console.log(`✅ Created feature branch: ${branchName}`);
+      return branchName;
+    } catch (error) {
+      console.error('❌ Failed to create feature branch:', error.message);
+      throw error;
     }
+  }
+
+  // Interactive rebase automation for cleaning up commits
+  squashLastNCommits(n, newMessage) {
+    if (n < 2) throw new Error('Need at least 2 commits to squash');
     
-    /**
-     * Create an interactive rebase script for cleaning up commits
-     */
-    generateRebaseScript(commitCount = 3) {
-        try {
-            // Get recent commits
-            const commits = execSync(
-                `git log --oneline -${commitCount} --reverse`, 
-                { cwd: this.repoPath, encoding: 'utf8' }
-            ).trim().split('\n');
-            
-            const rebaseActions = commits.map((commit, index) => {
-                const [sha, ...messageParts] = commit.split(' ');
-                const message = messageParts.join(' ');
-                
-                // First commit stays as 'pick', others become 'squash'
-                const action = index === 0 ? 'pick' : 'squash';
-                
-                // Detect fixup commits
-                if (message.toLowerCase().includes('fix') || 
-                    message.toLowerCase().includes('typo')) {
-                    return `fixup ${sha} ${message}`;
-                }
-                
-                return `${action} ${sha} ${message}`;
-            });
-            
-            return rebaseActions.join('\n');
-            
-        } catch (error) {
-            console.error('Error generating rebase script:', error.message);
-            return null;
-        }
+    try {
+      // Get commit hashes
+      const commits = this.execGit(`git log --oneline -n ${n}`)
+        .split('\n')
+        .filter(line => line.trim())
+        .map(line => line.split(' ')[0]);
+      
+      if (commits.length < n) {
+        throw new Error(`Only ${commits.length} commits available`);
+      }
+
+      // Create rebase script
+      const rebaseCommands = commits.map((hash, index) => 
+        index === commits.length - 1 ? `pick ${hash}` : `squash ${hash}`
+      ).reverse();
+      
+      console.log(`🔄 Squashing ${n} commits into: "${newMessage}"`);
+      console.log('Commits being squashed:', commits.reverse().join(', '));
+      
+      // Note: In real implementation, you'd use git rebase -i programmatically
+      // This is a simplified demonstration
+      return {
+        action: 'squash',
+        commits: commits,
+        newMessage: newMessage,
+        command: `git rebase -i HEAD~${n}`
+      };
+      
+    } catch (error) {
+      console.error('❌ Squash operation failed:', error.message);
+      throw error;
     }
-    
-    /**
-     * Advanced branch management with safety checks
-     */
-    safeBranchCleanup(dryRun = true) {
-        const results = {
-            merged: [],
-            unmerged: [],
-            protected: ['main', 'master', 'develop', 'staging']
-        };
-        
-        try {
-            // Get all local branches except current
-            const branches = execSync(
-                'git branch --format="%(refname:short)"', 
-                { cwd: this.repoPath, encoding: 'utf8' }
-            ).trim().split('\n').filter(branch => 
-                !branch.startsWith('*') && 
-                !results.protected.includes(branch.trim())
-            );
-            
-            branches.forEach(branch => {
-                const trimmedBranch = branch.trim();
-                
+  }
+
+  // Advanced merge strategy with conflict detection
+  smartMerge(targetBranch, sourceBranch) {
+    try {
+      // Check for potential conflicts before merge
+      this.execGit(`git checkout ${targetBranch}`);
+      
+      const mergeBase = this.execGit(`git merge-base ${targetBranch} ${sourceBranch}`).trim();
+      const conflicts = this.execGit(`git merge-tree ${mergeBase} ${targetBranch} ${sourceBranch}`);
+      
+      if (conflicts.includes('<<<<<<<')) {
+        console.warn('⚠️  Potential merge conflicts detected');
+        return { hasConflicts: true, conflicts };
+      }
+      
+      // Perform
