@@ -34,7 +34,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --global user.name "aaradhyapartap"
-          git config --global user.email "aaradhyapartap@yahoo.in"
+          git config --global user.email "86661757+aaradhyapartap@users.noreply.github.com"
           git add .
           git diff --cached --quiet || git commit -m "📚 Daily Insight: $(date +'%Y-%m-%d')"
           git push
