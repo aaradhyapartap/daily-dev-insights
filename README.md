@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Dependency injection patterns](insights/2026-03-31-dependency-injection-patterns.md)** · March 31, 2026
+**[API versioning strategies](insights/2026-04-01-api-versioning-strategies.md)** · April 01, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-01-api-versioning-strategies](insights/2026-04-01-api-versioning-strategies.md)
 - [2026-03-31-dependency-injection-patterns](insights/2026-03-31-dependency-injection-patterns.md)
 - [2026-03-30-blockchain-fundamentals-for-developers](insights/2026-03-30-blockchain-fundamentals-for-developers.md)
 - [2026-03-29-distributed-systems-cap-theorem](insights/2026-03-29-distributed-systems-cap-theorem.md)
 - [2026-03-28-browser-rendering-performance](insights/2026-03-28-browser-rendering-performance.md)
-- [2026-03-27-data-pipelines-with-python](insights/2026-03-27-data-pipelines-with-python.md)
 
 ## 🚀 About
 
