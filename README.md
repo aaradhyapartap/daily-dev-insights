@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Backpressure and flow control](insights/2026-04-08-backpressure-and-flow-control.md)** · April 08, 2026
+**[Finite state machines in software](insights/2026-04-09-finite-state-machines-in-software.md)** · April 09, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-09-finite-state-machines-in-software](insights/2026-04-09-finite-state-machines-in-software.md)
 - [2026-04-08-backpressure-and-flow-control](insights/2026-04-08-backpressure-and-flow-control.md)
 - [2026-04-07-idempotency-in-api-design](insights/2026-04-07-idempotency-in-api-design.md)
 - [2026-04-06-zero-downtime-deployments](insights/2026-04-06-zero-downtime-deployments.md)
 - [2026-04-05-observability-logs-metrics-traces](insights/2026-04-05-observability-logs-metrics-traces.md)
-- [2026-04-04-system-design-rate-limiter](insights/2026-04-04-system-design-rate-limiter.md)
 
 ## 🚀 About
 
