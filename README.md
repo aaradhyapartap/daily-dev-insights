@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Finite state machines in software](insights/2026-04-09-finite-state-machines-in-software.md)** · April 09, 2026
+**[Async/Await patterns and event loops](insights/2026-04-10-asyncawait-patterns-and-event-loops.md)** · April 10, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-10-asyncawait-patterns-and-event-loops](insights/2026-04-10-asyncawait-patterns-and-event-loops.md)
 - [2026-04-09-finite-state-machines-in-software](insights/2026-04-09-finite-state-machines-in-software.md)
 - [2026-04-08-backpressure-and-flow-control](insights/2026-04-08-backpressure-and-flow-control.md)
 - [2026-04-07-idempotency-in-api-design](insights/2026-04-07-idempotency-in-api-design.md)
 - [2026-04-06-zero-downtime-deployments](insights/2026-04-06-zero-downtime-deployments.md)
-- [2026-04-05-observability-logs-metrics-traces](insights/2026-04-05-observability-logs-metrics-traces.md)
 
 ## 🚀 About
 
