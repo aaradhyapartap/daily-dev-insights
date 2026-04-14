@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Docker containerization best practices](insights/2026-04-13-docker-containerization-best-practices.md)** · April 13, 2026
+**[Design patterns: Observer and Publisher/Subscriber](insights/2026-04-14-design-patterns-observer-and-publishersubscriber.md)** · April 14, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-14-design-patterns-observer-and-publishersubscriber](insights/2026-04-14-design-patterns-observer-and-publishersubscriber.md)
 - [2026-04-13-docker-containerization-best-practices](insights/2026-04-13-docker-containerization-best-practices.md)
 - [2026-04-12-rest-vs-graphql-vs-grpc](insights/2026-04-12-rest-vs-graphql-vs-grpc.md)
 - [2026-04-11-graph-algorithms-and-real-world-applications](insights/2026-04-11-graph-algorithms-and-real-world-applications.md)
 - [2026-04-10-asyncawait-patterns-and-event-loops](insights/2026-04-10-asyncawait-patterns-and-event-loops.md)
-- [2026-04-09-finite-state-machines-in-software](insights/2026-04-09-finite-state-machines-in-software.md)
 
 ## 🚀 About
 
