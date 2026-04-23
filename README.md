@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Caching strategies (Redis, CDN, in-memory)](insights/2026-04-22-caching-strategies-redis-cdn-in-memory.md)** · April 22, 2026
+**[CI/CD pipeline design](insights/2026-04-23-cicd-pipeline-design.md)** · April 23, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-23-cicd-pipeline-design](insights/2026-04-23-cicd-pipeline-design.md)
 - [2026-04-22-caching-strategies-redis-cdn-in-memory](insights/2026-04-22-caching-strategies-redis-cdn-in-memory.md)
 - [2026-04-21-solid-principles-with-examples](insights/2026-04-21-solid-principles-with-examples.md)
 - [2026-04-20-websockets-and-real-time-data](insights/2026-04-20-websockets-and-real-time-data.md)
 - [2026-04-19-microservices-communication-patterns](insights/2026-04-19-microservices-communication-patterns.md)
-- [2026-04-18-memory-management-and-garbage-collection](insights/2026-04-18-memory-management-and-garbage-collection.md)
 
 ## 🚀 About
 
