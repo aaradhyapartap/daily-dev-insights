@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[CSS Grid and Flexbox layouts](insights/2026-04-27-css-grid-and-flexbox-layouts.md)** · April 27, 2026
+**[TypeScript advanced types and generics](insights/2026-04-28-typescript-advanced-types-and-generics.md)** · April 28, 2026
 
 ## 📅 Recent Posts
 
+- [2026-04-28-typescript-advanced-types-and-generics](insights/2026-04-28-typescript-advanced-types-and-generics.md)
 - [2026-04-27-css-grid-and-flexbox-layouts](insights/2026-04-27-css-grid-and-flexbox-layouts.md)
 - [2026-04-26-binary-search-and-divide-and-conquer](insights/2026-04-26-binary-search-and-divide-and-conquer.md)
 - [2026-04-25-recursion-vs-iteration-tradeoffs](insights/2026-04-25-recursion-vs-iteration-tradeoffs.md)
 - [2026-04-24-api-rate-limiting-and-throttling](insights/2026-04-24-api-rate-limiting-and-throttling.md)
-- [2026-04-23-cicd-pipeline-design](insights/2026-04-23-cicd-pipeline-design.md)
 
 ## 🚀 About
 
