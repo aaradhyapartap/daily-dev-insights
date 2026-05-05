@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[LLM prompt engineering techniques](insights/2026-05-04-llm-prompt-engineering-techniques.md)** · May 04, 2026
+**[Vector databases and semantic search](insights/2026-05-05-vector-databases-and-semantic-search.md)** · May 05, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-05-vector-databases-and-semantic-search](insights/2026-05-05-vector-databases-and-semantic-search.md)
 - [2026-05-04-llm-prompt-engineering-techniques](insights/2026-05-04-llm-prompt-engineering-techniques.md)
 - [2026-05-03-monorepo-vs-polyrepo-structure](insights/2026-05-03-monorepo-vs-polyrepo-structure.md)
 - [2026-05-02-concurrency-models-threads-goroutines-async](insights/2026-05-02-concurrency-models-threads-goroutines-async.md)
 - [2026-05-01-web-security-xss-csrf-sql-injection](insights/2026-05-01-web-security-xss-csrf-sql-injection.md)
-- [2026-04-30-data-serialization-json-vs-messagepack-vs-protobuf](insights/2026-04-30-data-serialization-json-vs-messagepack-vs-protobuf.md)
 
 ## 🚀 About
 
