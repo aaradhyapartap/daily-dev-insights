@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Test-driven development strategies](insights/2026-05-08-test-driven-development-strategies.md)** · May 08, 2026
+**[HTTP/2 and HTTP/3 improvements](insights/2026-05-09-http2-and-http3-improvements.md)** · May 09, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-09-http2-and-http3-improvements](insights/2026-05-09-http2-and-http3-improvements.md)
 - [2026-05-08-test-driven-development-strategies](insights/2026-05-08-test-driven-development-strategies.md)
 - [2026-05-07-event-driven-architecture](insights/2026-05-07-event-driven-architecture.md)
 - [2026-05-06-kubernetes-basics-for-developers](insights/2026-05-06-kubernetes-basics-for-developers.md)
 - [2026-05-05-vector-databases-and-semantic-search](insights/2026-05-05-vector-databases-and-semantic-search.md)
-- [2026-05-04-llm-prompt-engineering-techniques](insights/2026-05-04-llm-prompt-engineering-techniques.md)
 
 ## 🚀 About
 
