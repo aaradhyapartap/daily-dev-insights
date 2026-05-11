@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Regular expressions deep dive](insights/2026-05-10-regular-expressions-deep-dive.md)** · May 10, 2026
+**[Shell scripting productivity tips](insights/2026-05-11-shell-scripting-productivity-tips.md)** · May 11, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-11-shell-scripting-productivity-tips](insights/2026-05-11-shell-scripting-productivity-tips.md)
 - [2026-05-10-regular-expressions-deep-dive](insights/2026-05-10-regular-expressions-deep-dive.md)
 - [2026-05-09-http2-and-http3-improvements](insights/2026-05-09-http2-and-http3-improvements.md)
 - [2026-05-08-test-driven-development-strategies](insights/2026-05-08-test-driven-development-strategies.md)
 - [2026-05-07-event-driven-architecture](insights/2026-05-07-event-driven-architecture.md)
-- [2026-05-06-kubernetes-basics-for-developers](insights/2026-05-06-kubernetes-basics-for-developers.md)
 
 ## 🚀 About
 
