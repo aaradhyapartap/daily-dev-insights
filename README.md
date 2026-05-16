@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Machine learning feature engineering](insights/2026-05-15-machine-learning-feature-engineering.md)** · May 15, 2026
+**[Data pipelines with Python](insights/2026-05-16-data-pipelines-with-python.md)** · May 16, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-16-data-pipelines-with-python](insights/2026-05-16-data-pipelines-with-python.md)
 - [2026-05-15-machine-learning-feature-engineering](insights/2026-05-15-machine-learning-feature-engineering.md)
 - [2026-05-14-progressive-web-apps-pwa](insights/2026-05-14-progressive-web-apps-pwa.md)
 - [2026-05-13-webassembly-use-cases](insights/2026-05-13-webassembly-use-cases.md)
 - [2026-05-12-git-internals-and-advanced-workflows](insights/2026-05-12-git-internals-and-advanced-workflows.md)
-- [2026-05-11-shell-scripting-productivity-tips](insights/2026-05-11-shell-scripting-productivity-tips.md)
 
 ## 🚀 About
 
