@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Data pipelines with Python](insights/2026-05-16-data-pipelines-with-python.md)** · May 16, 2026
+**[Browser rendering performance](insights/2026-05-17-browser-rendering-performance.md)** · May 17, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-17-browser-rendering-performance](insights/2026-05-17-browser-rendering-performance.md)
 - [2026-05-16-data-pipelines-with-python](insights/2026-05-16-data-pipelines-with-python.md)
 - [2026-05-15-machine-learning-feature-engineering](insights/2026-05-15-machine-learning-feature-engineering.md)
 - [2026-05-14-progressive-web-apps-pwa](insights/2026-05-14-progressive-web-apps-pwa.md)
 - [2026-05-13-webassembly-use-cases](insights/2026-05-13-webassembly-use-cases.md)
-- [2026-05-12-git-internals-and-advanced-workflows](insights/2026-05-12-git-internals-and-advanced-workflows.md)
 
 ## 🚀 About
 
