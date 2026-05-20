@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Blockchain fundamentals for developers](insights/2026-05-19-blockchain-fundamentals-for-developers.md)** · May 19, 2026
+**[Dependency injection patterns](insights/2026-05-20-dependency-injection-patterns.md)** · May 20, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-20-dependency-injection-patterns](insights/2026-05-20-dependency-injection-patterns.md)
 - [2026-05-19-blockchain-fundamentals-for-developers](insights/2026-05-19-blockchain-fundamentals-for-developers.md)
 - [2026-05-18-distributed-systems-cap-theorem](insights/2026-05-18-distributed-systems-cap-theorem.md)
 - [2026-05-17-browser-rendering-performance](insights/2026-05-17-browser-rendering-performance.md)
 - [2026-05-16-data-pipelines-with-python](insights/2026-05-16-data-pipelines-with-python.md)
-- [2026-05-15-machine-learning-feature-engineering](insights/2026-05-15-machine-learning-feature-engineering.md)
 
 ## 🚀 About
 
