@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Async/Await patterns and event loops](insights/2026-05-30-asyncawait-patterns-and-event-loops.md)** · May 30, 2026
+**[Graph algorithms and real-world applications](insights/2026-05-31-graph-algorithms-and-real-world-applications.md)** · May 31, 2026
 
 ## 📅 Recent Posts
 
+- [2026-05-31-graph-algorithms-and-real-world-applications](insights/2026-05-31-graph-algorithms-and-real-world-applications.md)
 - [2026-05-30-asyncawait-patterns-and-event-loops](insights/2026-05-30-asyncawait-patterns-and-event-loops.md)
 - [2026-05-29-finite-state-machines-in-software](insights/2026-05-29-finite-state-machines-in-software.md)
 - [2026-05-28-backpressure-and-flow-control](insights/2026-05-28-backpressure-and-flow-control.md)
 - [2026-05-25-observability-logs-metrics-traces](insights/2026-05-25-observability-logs-metrics-traces.md)
-- [2026-05-24-system-design-rate-limiter](insights/2026-05-24-system-design-rate-limiter.md)
 
 ## 🚀 About
 
