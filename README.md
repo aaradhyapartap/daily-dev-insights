@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[WebSockets and real-time data](insights/2026-06-09-websockets-and-real-time-data.md)** · June 09, 2026
+**[SOLID principles with examples](insights/2026-06-10-solid-principles-with-examples.md)** · June 10, 2026
 
 ## 📅 Recent Posts
 
+- [2026-06-10-solid-principles-with-examples](insights/2026-06-10-solid-principles-with-examples.md)
 - [2026-06-09-websockets-and-real-time-data](insights/2026-06-09-websockets-and-real-time-data.md)
 - [2026-06-08-microservices-communication-patterns](insights/2026-06-08-microservices-communication-patterns.md)
 - [2026-06-07-memory-management-and-garbage-collection](insights/2026-06-07-memory-management-and-garbage-collection.md)
 - [2026-06-06-functional-programming-concepts](insights/2026-06-06-functional-programming-concepts.md)
-- [2026-06-05-oauth-20-and-jwt-authentication-flows](insights/2026-06-05-oauth-20-and-jwt-authentication-flows.md)
 
 ## 🚀 About
 
