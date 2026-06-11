@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[SOLID principles with examples](insights/2026-06-10-solid-principles-with-examples.md)** · June 10, 2026
+**[Caching strategies (Redis, CDN, in-memory)](insights/2026-06-11-caching-strategies-redis-cdn-in-memory.md)** · June 11, 2026
 
 ## 📅 Recent Posts
 
+- [2026-06-11-caching-strategies-redis-cdn-in-memory](insights/2026-06-11-caching-strategies-redis-cdn-in-memory.md)
 - [2026-06-10-solid-principles-with-examples](insights/2026-06-10-solid-principles-with-examples.md)
 - [2026-06-09-websockets-and-real-time-data](insights/2026-06-09-websockets-and-real-time-data.md)
 - [2026-06-08-microservices-communication-patterns](insights/2026-06-08-microservices-communication-patterns.md)
 - [2026-06-07-memory-management-and-garbage-collection](insights/2026-06-07-memory-management-and-garbage-collection.md)
-- [2026-06-06-functional-programming-concepts](insights/2026-06-06-functional-programming-concepts.md)
 
 ## 🚀 About
 
