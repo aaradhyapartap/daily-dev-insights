@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[CI/CD pipeline design](insights/2026-06-12-cicd-pipeline-design.md)** · June 12, 2026
+**[API rate limiting and throttling](insights/2026-06-13-api-rate-limiting-and-throttling.md)** · June 13, 2026
 
 ## 📅 Recent Posts
 
+- [2026-06-13-api-rate-limiting-and-throttling](insights/2026-06-13-api-rate-limiting-and-throttling.md)
 - [2026-06-12-cicd-pipeline-design](insights/2026-06-12-cicd-pipeline-design.md)
 - [2026-06-11-caching-strategies-redis-cdn-in-memory](insights/2026-06-11-caching-strategies-redis-cdn-in-memory.md)
 - [2026-06-10-solid-principles-with-examples](insights/2026-06-10-solid-principles-with-examples.md)
 - [2026-06-09-websockets-and-real-time-data](insights/2026-06-09-websockets-and-real-time-data.md)
-- [2026-06-08-microservices-communication-patterns](insights/2026-06-08-microservices-communication-patterns.md)
 
 ## 🚀 About
 
