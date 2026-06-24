@@ -113,7 +113,7 @@ def generate_insight(topic: str, today: date) -> str:
     prompt = PROMPT_TEMPLATE.format(topic=topic, today=today.strftime("%B %d, %Y"))
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
