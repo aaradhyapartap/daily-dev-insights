@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Kubernetes basics for developers](insights/2026-06-25-kubernetes-basics-for-developers.md)** · June 25, 2026
+**[Event-driven architecture](insights/2026-06-26-event-driven-architecture.md)** · June 26, 2026
 
 ## 📅 Recent Posts
 
+- [2026-06-26-event-driven-architecture](insights/2026-06-26-event-driven-architecture.md)
 - [2026-06-25-kubernetes-basics-for-developers](insights/2026-06-25-kubernetes-basics-for-developers.md)
 - [2026-06-24-vector-databases-and-semantic-search](insights/2026-06-24-vector-databases-and-semantic-search.md)
 - [2026-06-15-binary-search-and-divide-and-conquer](insights/2026-06-15-binary-search-and-divide-and-conquer.md)
 - [2026-06-14-recursion-vs-iteration-tradeoffs](insights/2026-06-14-recursion-vs-iteration-tradeoffs.md)
-- [2026-06-13-api-rate-limiting-and-throttling](insights/2026-06-13-api-rate-limiting-and-throttling.md)
 
 ## 🚀 About
 
