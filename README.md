@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Progressive Web Apps (PWA)](insights/2026-07-03-progressive-web-apps-pwa.md)** · July 03, 2026
+**[Machine learning feature engineering](insights/2026-07-04-machine-learning-feature-engineering.md)** · July 04, 2026
 
 ## 📅 Recent Posts
 
+- [2026-07-04-machine-learning-feature-engineering](insights/2026-07-04-machine-learning-feature-engineering.md)
 - [2026-07-03-progressive-web-apps-pwa](insights/2026-07-03-progressive-web-apps-pwa.md)
 - [2026-07-02-webassembly-use-cases](insights/2026-07-02-webassembly-use-cases.md)
 - [2026-07-01-git-internals-and-advanced-workflows](insights/2026-07-01-git-internals-and-advanced-workflows.md)
 - [2026-06-30-shell-scripting-productivity-tips](insights/2026-06-30-shell-scripting-productivity-tips.md)
-- [2026-06-29-regular-expressions-deep-dive](insights/2026-06-29-regular-expressions-deep-dive.md)
 
 ## 🚀 About
 
