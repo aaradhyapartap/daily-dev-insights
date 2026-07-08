@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Distributed systems: CAP theorem](insights/2026-07-07-distributed-systems-cap-theorem.md)** · July 07, 2026
+**[Blockchain fundamentals for developers](insights/2026-07-08-blockchain-fundamentals-for-developers.md)** · July 08, 2026
 
 ## 📅 Recent Posts
 
+- [2026-07-08-blockchain-fundamentals-for-developers](insights/2026-07-08-blockchain-fundamentals-for-developers.md)
 - [2026-07-07-distributed-systems-cap-theorem](insights/2026-07-07-distributed-systems-cap-theorem.md)
 - [2026-07-06-browser-rendering-performance](insights/2026-07-06-browser-rendering-performance.md)
 - [2026-07-05-data-pipelines-with-python](insights/2026-07-05-data-pipelines-with-python.md)
 - [2026-07-04-machine-learning-feature-engineering](insights/2026-07-04-machine-learning-feature-engineering.md)
-- [2026-07-03-progressive-web-apps-pwa](insights/2026-07-03-progressive-web-apps-pwa.md)
 
 ## 🚀 About
 
