@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[REST vs GraphQL vs gRPC](insights/2026-07-21-rest-vs-graphql-vs-grpc.md)** · July 21, 2026
+**[Docker containerization best practices](insights/2026-07-22-docker-containerization-best-practices.md)** · July 22, 2026
 
 ## 📅 Recent Posts
 
+- [2026-07-22-docker-containerization-best-practices](insights/2026-07-22-docker-containerization-best-practices.md)
 - [2026-07-21-rest-vs-graphql-vs-grpc](insights/2026-07-21-rest-vs-graphql-vs-grpc.md)
 - [2026-07-20-graph-algorithms-and-real-world-applications](insights/2026-07-20-graph-algorithms-and-real-world-applications.md)
 - [2026-07-19-asyncawait-patterns-and-event-loops](insights/2026-07-19-asyncawait-patterns-and-event-loops.md)
 - [2026-07-18-finite-state-machines-in-software](insights/2026-07-18-finite-state-machines-in-software.md)
-- [2026-07-17-backpressure-and-flow-control](insights/2026-07-17-backpressure-and-flow-control.md)
 
 ## 🚀 About
 
