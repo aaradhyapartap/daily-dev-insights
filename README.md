@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Design patterns: Observer and Publisher/Subscriber](insights/2026-07-23-design-patterns-observer-and-publishersubscriber.md)** · July 23, 2026
+**[Database indexing strategies](insights/2026-07-24-database-indexing-strategies.md)** · July 24, 2026
 
 ## 📅 Recent Posts
 
+- [2026-07-24-database-indexing-strategies](insights/2026-07-24-database-indexing-strategies.md)
 - [2026-07-23-design-patterns-observer-and-publishersubscriber](insights/2026-07-23-design-patterns-observer-and-publishersubscriber.md)
 - [2026-07-22-docker-containerization-best-practices](insights/2026-07-22-docker-containerization-best-practices.md)
 - [2026-07-21-rest-vs-graphql-vs-grpc](insights/2026-07-21-rest-vs-graphql-vs-grpc.md)
 - [2026-07-20-graph-algorithms-and-real-world-applications](insights/2026-07-20-graph-algorithms-and-real-world-applications.md)
-- [2026-07-19-asyncawait-patterns-and-event-loops](insights/2026-07-19-asyncawait-patterns-and-event-loops.md)
 
 ## 🚀 About
 
