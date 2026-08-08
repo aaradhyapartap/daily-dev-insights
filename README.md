@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Serverless architecture patterns](insights/2026-08-07-serverless-architecture-patterns.md)** · August 07, 2026
+**[Data serialization: JSON vs MessagePack vs Protobuf](insights/2026-08-08-data-serialization-json-vs-messagepack-vs-protobuf.md)** · August 08, 2026
 
 ## 📅 Recent Posts
 
+- [2026-08-08-data-serialization-json-vs-messagepack-vs-protobuf](insights/2026-08-08-data-serialization-json-vs-messagepack-vs-protobuf.md)
 - [2026-08-07-serverless-architecture-patterns](insights/2026-08-07-serverless-architecture-patterns.md)
 - [2026-08-06-typescript-advanced-types-and-generics](insights/2026-08-06-typescript-advanced-types-and-generics.md)
 - [2026-08-05-css-grid-and-flexbox-layouts](insights/2026-08-05-css-grid-and-flexbox-layouts.md)
 - [2026-08-04-binary-search-and-divide-and-conquer](insights/2026-08-04-binary-search-and-divide-and-conquer.md)
-- [2026-08-03-recursion-vs-iteration-tradeoffs](insights/2026-08-03-recursion-vs-iteration-tradeoffs.md)
 
 ## 🚀 About
 
