@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Concurrency models: threads, goroutines, async](insights/2026-08-10-concurrency-models-threads-goroutines-async.md)** · August 10, 2026
+**[Monorepo vs polyrepo structure](insights/2026-08-11-monorepo-vs-polyrepo-structure.md)** · August 11, 2026
 
 ## 📅 Recent Posts
 
+- [2026-08-11-monorepo-vs-polyrepo-structure](insights/2026-08-11-monorepo-vs-polyrepo-structure.md)
 - [2026-08-10-concurrency-models-threads-goroutines-async](insights/2026-08-10-concurrency-models-threads-goroutines-async.md)
 - [2026-08-09-web-security-xss-csrf-sql-injection](insights/2026-08-09-web-security-xss-csrf-sql-injection.md)
 - [2026-08-08-data-serialization-json-vs-messagepack-vs-protobuf](insights/2026-08-08-data-serialization-json-vs-messagepack-vs-protobuf.md)
 - [2026-08-07-serverless-architecture-patterns](insights/2026-08-07-serverless-architecture-patterns.md)
-- [2026-08-06-typescript-advanced-types-and-generics](insights/2026-08-06-typescript-advanced-types-and-generics.md)
 
 ## 🚀 About
 
