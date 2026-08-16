@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Event-driven architecture](insights/2026-08-15-event-driven-architecture.md)** · August 15, 2026
+**[Test-driven development strategies](insights/2026-08-16-test-driven-development-strategies.md)** · August 16, 2026
 
 ## 📅 Recent Posts
 
+- [2026-08-16-test-driven-development-strategies](insights/2026-08-16-test-driven-development-strategies.md)
 - [2026-08-15-event-driven-architecture](insights/2026-08-15-event-driven-architecture.md)
 - [2026-08-14-kubernetes-basics-for-developers](insights/2026-08-14-kubernetes-basics-for-developers.md)
 - [2026-08-13-vector-databases-and-semantic-search](insights/2026-08-13-vector-databases-and-semantic-search.md)
 - [2026-08-12-llm-prompt-engineering-techniques](insights/2026-08-12-llm-prompt-engineering-techniques.md)
-- [2026-08-11-monorepo-vs-polyrepo-structure](insights/2026-08-11-monorepo-vs-polyrepo-structure.md)
 
 ## 🚀 About
 
