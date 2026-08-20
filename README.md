@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Shell scripting productivity tips](insights/2026-08-19-shell-scripting-productivity-tips.md)** · August 19, 2026
+**[Git internals and advanced workflows](insights/2026-08-20-git-internals-and-advanced-workflows.md)** · August 20, 2026
 
 ## 📅 Recent Posts
 
+- [2026-08-20-git-internals-and-advanced-workflows](insights/2026-08-20-git-internals-and-advanced-workflows.md)
 - [2026-08-19-shell-scripting-productivity-tips](insights/2026-08-19-shell-scripting-productivity-tips.md)
 - [2026-08-18-regular-expressions-deep-dive](insights/2026-08-18-regular-expressions-deep-dive.md)
 - [2026-08-17-http2-and-http3-improvements](insights/2026-08-17-http2-and-http3-improvements.md)
 - [2026-08-16-test-driven-development-strategies](insights/2026-08-16-test-driven-development-strategies.md)
-- [2026-08-15-event-driven-architecture](insights/2026-08-15-event-driven-architecture.md)
 
 ## 🚀 About
 
