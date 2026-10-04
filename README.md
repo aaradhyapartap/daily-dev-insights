@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Kubernetes basics for developers](insights/2026-10-03-kubernetes-basics-for-developers.md)** · October 03, 2026
+**[Event-driven architecture](insights/2026-10-04-event-driven-architecture.md)** · October 04, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-04-event-driven-architecture](insights/2026-10-04-event-driven-architecture.md)
 - [2026-10-03-kubernetes-basics-for-developers](insights/2026-10-03-kubernetes-basics-for-developers.md)
 - [2026-10-02-vector-databases-and-semantic-search](insights/2026-10-02-vector-databases-and-semantic-search.md)
 - [2026-10-01-llm-prompt-engineering-techniques](insights/2026-10-01-llm-prompt-engineering-techniques.md)
 - [2026-09-30-monorepo-vs-polyrepo-structure](insights/2026-09-30-monorepo-vs-polyrepo-structure.md)
-- [2026-09-29-concurrency-models-threads-goroutines-async](insights/2026-09-29-concurrency-models-threads-goroutines-async.md)
 
 ## 🚀 About
 
