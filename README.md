@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[HTTP/2 and HTTP/3 improvements](insights/2026-10-06-http2-and-http3-improvements.md)** · October 06, 2026
+**[Regular expressions deep dive](insights/2026-10-07-regular-expressions-deep-dive.md)** · October 07, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-07-regular-expressions-deep-dive](insights/2026-10-07-regular-expressions-deep-dive.md)
 - [2026-10-06-http2-and-http3-improvements](insights/2026-10-06-http2-and-http3-improvements.md)
 - [2026-10-05-test-driven-development-strategies](insights/2026-10-05-test-driven-development-strategies.md)
 - [2026-10-04-event-driven-architecture](insights/2026-10-04-event-driven-architecture.md)
 - [2026-10-03-kubernetes-basics-for-developers](insights/2026-10-03-kubernetes-basics-for-developers.md)
-- [2026-10-02-vector-databases-and-semantic-search](insights/2026-10-02-vector-databases-and-semantic-search.md)
 
 ## 🚀 About
 
