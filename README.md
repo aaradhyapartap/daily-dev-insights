@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[WebAssembly use cases](insights/2026-10-10-webassembly-use-cases.md)** · October 10, 2026
+**[Progressive Web Apps (PWA)](insights/2026-10-11-progressive-web-apps-pwa.md)** · October 11, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-11-progressive-web-apps-pwa](insights/2026-10-11-progressive-web-apps-pwa.md)
 - [2026-10-10-webassembly-use-cases](insights/2026-10-10-webassembly-use-cases.md)
 - [2026-10-09-git-internals-and-advanced-workflows](insights/2026-10-09-git-internals-and-advanced-workflows.md)
 - [2026-10-08-shell-scripting-productivity-tips](insights/2026-10-08-shell-scripting-productivity-tips.md)
 - [2026-10-07-regular-expressions-deep-dive](insights/2026-10-07-regular-expressions-deep-dive.md)
-- [2026-10-06-http2-and-http3-improvements](insights/2026-10-06-http2-and-http3-improvements.md)
 
 ## 🚀 About
 
