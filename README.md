@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[API versioning strategies](insights/2026-10-18-api-versioning-strategies.md)** · October 18, 2026
+**[Code review best practices](insights/2026-10-19-code-review-best-practices.md)** · October 19, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-19-code-review-best-practices](insights/2026-10-19-code-review-best-practices.md)
 - [2026-10-18-api-versioning-strategies](insights/2026-10-18-api-versioning-strategies.md)
 - [2026-10-17-dependency-injection-patterns](insights/2026-10-17-dependency-injection-patterns.md)
 - [2026-10-16-blockchain-fundamentals-for-developers](insights/2026-10-16-blockchain-fundamentals-for-developers.md)
 - [2026-10-15-distributed-systems-cap-theorem](insights/2026-10-15-distributed-systems-cap-theorem.md)
-- [2026-10-14-browser-rendering-performance](insights/2026-10-14-browser-rendering-performance.md)
 
 ## 🚀 About
 
