@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[System design: URL shortener](insights/2026-10-20-system-design-url-shortener.md)** · October 20, 2026
+**[System design: rate limiter](insights/2026-10-21-system-design-rate-limiter.md)** · October 21, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-21-system-design-rate-limiter](insights/2026-10-21-system-design-rate-limiter.md)
 - [2026-10-20-system-design-url-shortener](insights/2026-10-20-system-design-url-shortener.md)
 - [2026-10-19-code-review-best-practices](insights/2026-10-19-code-review-best-practices.md)
 - [2026-10-18-api-versioning-strategies](insights/2026-10-18-api-versioning-strategies.md)
 - [2026-10-17-dependency-injection-patterns](insights/2026-10-17-dependency-injection-patterns.md)
-- [2026-10-16-blockchain-fundamentals-for-developers](insights/2026-10-16-blockchain-fundamentals-for-developers.md)
 
 ## 🚀 About
 
