@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Graph algorithms and real-world applications](insights/2026-10-28-graph-algorithms-and-real-world-applications.md)** · October 28, 2026
+**[REST vs GraphQL vs gRPC](insights/2026-10-29-rest-vs-graphql-vs-grpc.md)** · October 29, 2026
 
 ## 📅 Recent Posts
 
+- [2026-10-29-rest-vs-graphql-vs-grpc](insights/2026-10-29-rest-vs-graphql-vs-grpc.md)
 - [2026-10-28-graph-algorithms-and-real-world-applications](insights/2026-10-28-graph-algorithms-and-real-world-applications.md)
 - [2026-10-27-asyncawait-patterns-and-event-loops](insights/2026-10-27-asyncawait-patterns-and-event-loops.md)
 - [2026-10-26-finite-state-machines-in-software](insights/2026-10-26-finite-state-machines-in-software.md)
 - [2026-10-25-backpressure-and-flow-control](insights/2026-10-25-backpressure-and-flow-control.md)
-- [2026-10-24-idempotency-in-api-design](insights/2026-10-24-idempotency-in-api-design.md)
 
 ## 🚀 About
 
