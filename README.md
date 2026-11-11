@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[API rate limiting and throttling](insights/2026-11-10-api-rate-limiting-and-throttling.md)** · November 10, 2026
+**[Recursion vs iteration tradeoffs](insights/2026-11-11-recursion-vs-iteration-tradeoffs.md)** · November 11, 2026
 
 ## 📅 Recent Posts
 
+- [2026-11-11-recursion-vs-iteration-tradeoffs](insights/2026-11-11-recursion-vs-iteration-tradeoffs.md)
 - [2026-11-10-api-rate-limiting-and-throttling](insights/2026-11-10-api-rate-limiting-and-throttling.md)
 - [2026-11-09-cicd-pipeline-design](insights/2026-11-09-cicd-pipeline-design.md)
 - [2026-11-08-caching-strategies-redis-cdn-in-memory](insights/2026-11-08-caching-strategies-redis-cdn-in-memory.md)
 - [2026-11-07-solid-principles-with-examples](insights/2026-11-07-solid-principles-with-examples.md)
-- [2026-11-06-websockets-and-real-time-data](insights/2026-11-06-websockets-and-real-time-data.md)
 
 ## 🚀 About
 
