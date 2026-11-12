@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Recursion vs iteration tradeoffs](insights/2026-11-11-recursion-vs-iteration-tradeoffs.md)** · November 11, 2026
+**[Binary search and divide-and-conquer](insights/2026-11-12-binary-search-and-divide-and-conquer.md)** · November 12, 2026
 
 ## 📅 Recent Posts
 
+- [2026-11-12-binary-search-and-divide-and-conquer](insights/2026-11-12-binary-search-and-divide-and-conquer.md)
 - [2026-11-11-recursion-vs-iteration-tradeoffs](insights/2026-11-11-recursion-vs-iteration-tradeoffs.md)
 - [2026-11-10-api-rate-limiting-and-throttling](insights/2026-11-10-api-rate-limiting-and-throttling.md)
 - [2026-11-09-cicd-pipeline-design](insights/2026-11-09-cicd-pipeline-design.md)
 - [2026-11-08-caching-strategies-redis-cdn-in-memory](insights/2026-11-08-caching-strategies-redis-cdn-in-memory.md)
-- [2026-11-07-solid-principles-with-examples](insights/2026-11-07-solid-principles-with-examples.md)
 
 ## 🚀 About
 
