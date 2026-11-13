@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Binary search and divide-and-conquer](insights/2026-11-12-binary-search-and-divide-and-conquer.md)** · November 12, 2026
+**[CSS Grid and Flexbox layouts](insights/2026-11-13-css-grid-and-flexbox-layouts.md)** · November 13, 2026
 
 ## 📅 Recent Posts
 
+- [2026-11-13-css-grid-and-flexbox-layouts](insights/2026-11-13-css-grid-and-flexbox-layouts.md)
 - [2026-11-12-binary-search-and-divide-and-conquer](insights/2026-11-12-binary-search-and-divide-and-conquer.md)
 - [2026-11-11-recursion-vs-iteration-tradeoffs](insights/2026-11-11-recursion-vs-iteration-tradeoffs.md)
 - [2026-11-10-api-rate-limiting-and-throttling](insights/2026-11-10-api-rate-limiting-and-throttling.md)
 - [2026-11-09-cicd-pipeline-design](insights/2026-11-09-cicd-pipeline-design.md)
-- [2026-11-08-caching-strategies-redis-cdn-in-memory](insights/2026-11-08-caching-strategies-redis-cdn-in-memory.md)
 
 ## 🚀 About
 
