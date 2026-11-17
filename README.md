@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Data serialization: JSON vs MessagePack vs Protobuf](insights/2026-11-16-data-serialization-json-vs-messagepack-vs-protobuf.md)** · November 16, 2026
+**[Web security: XSS, CSRF, SQL injection](insights/2026-11-17-web-security-xss-csrf-sql-injection.md)** · November 17, 2026
 
 ## 📅 Recent Posts
 
+- [2026-11-17-web-security-xss-csrf-sql-injection](insights/2026-11-17-web-security-xss-csrf-sql-injection.md)
 - [2026-11-16-data-serialization-json-vs-messagepack-vs-protobuf](insights/2026-11-16-data-serialization-json-vs-messagepack-vs-protobuf.md)
 - [2026-11-15-serverless-architecture-patterns](insights/2026-11-15-serverless-architecture-patterns.md)
 - [2026-11-14-typescript-advanced-types-and-generics](insights/2026-11-14-typescript-advanced-types-and-generics.md)
 - [2026-11-13-css-grid-and-flexbox-layouts](insights/2026-11-13-css-grid-and-flexbox-layouts.md)
-- [2026-11-12-binary-search-and-divide-and-conquer](insights/2026-11-12-binary-search-and-divide-and-conquer.md)
 
 ## 🚀 About
 
