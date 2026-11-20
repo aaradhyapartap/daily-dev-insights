@@ -5,15 +5,15 @@
 
 ## ✨ Latest Insight
 
-**[Monorepo vs polyrepo structure](insights/2026-11-19-monorepo-vs-polyrepo-structure.md)** · November 19, 2026
+**[LLM prompt engineering techniques](insights/2026-11-20-llm-prompt-engineering-techniques.md)** · November 20, 2026
 
 ## 📅 Recent Posts
 
+- [2026-11-20-llm-prompt-engineering-techniques](insights/2026-11-20-llm-prompt-engineering-techniques.md)
 - [2026-11-19-monorepo-vs-polyrepo-structure](insights/2026-11-19-monorepo-vs-polyrepo-structure.md)
 - [2026-11-18-concurrency-models-threads-goroutines-async](insights/2026-11-18-concurrency-models-threads-goroutines-async.md)
 - [2026-11-17-web-security-xss-csrf-sql-injection](insights/2026-11-17-web-security-xss-csrf-sql-injection.md)
 - [2026-11-16-data-serialization-json-vs-messagepack-vs-protobuf](insights/2026-11-16-data-serialization-json-vs-messagepack-vs-protobuf.md)
-- [2026-11-15-serverless-architecture-patterns](insights/2026-11-15-serverless-architecture-patterns.md)
 
 ## 🚀 About
 
